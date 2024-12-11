@@ -3,7 +3,7 @@
 
 use Imagen;
 
-class Diccionario extends Imagen
+class Vocabulario
 {
 
     static public array $diccionario =[
@@ -26,8 +26,7 @@ class Diccionario extends Imagen
             ]
     ];
 
-    protected string $idiomas;
-    protected string $temas;
+
 
 
 }

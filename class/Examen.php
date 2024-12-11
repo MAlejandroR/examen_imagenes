@@ -3,10 +3,17 @@
 
 use Pregunta;
 
-class Examen extends Pregunta
+class Examen
 {
 
-    private array  $preguntas=[];
+   /**  @var Pregunta [] **/
+   private array  $preguntas=[];
+   private $nombre_alumno;
+   private $fecha;
+   private $idioma;
+
+
+
 
 
 }
